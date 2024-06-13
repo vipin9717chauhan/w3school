@@ -1,0 +1,68 @@
+/*start laptop coding..*/
+@media(max-width:1024px)
+{
+	.main-header
+	{width: 100%; height: auto;}
+	.search-icon-box{background: gray;}
+}
+/*and laptop coding..*/
+
+/*start large tab coding..*/
+
+@media(max-width:768px)
+{
+	.main-ul{float:left;}
+	.search-icon-box{float:left;position: absolute;margin-left: 10px;background: none;}
+}
+/*and large tab coding..*/
+
+
+/*start large mobile coding..*/
+	
+@media(max-width:600px)
+{
+	.search-icon-box {display: none;}
+	.bars-icon-box{position: absolute;display: block;}
+	.main-ul{width: 100%;border:1px solid green;}
+	.main-ul li
+	{
+		display: block;
+		width: 100%;
+		border: 1px solid red;
+	}
+	.main-ul .relative{display: none;}
+	.main-ul{display: none;}
+	.main-header{width: 100%;height:50px;background: black;float:left;}
+}
+/*and large mobile coding..*/
+
+
+/*start img responsive coding.. */
+
+@media(max-width: 1024px)
+{
+	.main-img-slider-con
+	{
+		width: 100%; height: 660px;
+	}
+}
+
+@media(max-width: 768px)
+{
+	.main-img-slider-con
+	{
+		width: 100%; height: 600px;
+	}
+}
+
+@media(max-width: 600px)
+{
+	.main-img-slider-con
+	{
+		width: 100%; height: 300px;
+	}
+}
+
+
+
+/* and img responsive coding..  */

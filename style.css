@@ -1,0 +1,412 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+a{font-family: sans-serif;text-decoration: none;}
+button{cursor: pointer;}
+
+
+/* start header coding.. */
+
+.main-header
+{
+	width: 100%; height: auto;
+	background: black;
+	float: left;
+	position: fixed;
+	z-index: 1000;
+}
+
+.main-ul
+{
+	list-style: none;
+}
+
+.main-ul li
+{
+	display: inline-block;
+	padding: 16px;
+}
+.main-ul li:hover
+{
+	background: lightgray;
+}
+.main-ul li:hover a
+{
+	color: black;
+}
+.main-ul li a
+{
+	color: white;
+}
+
+.sub-ul-main-header
+{
+	position: absolute;
+	background: white;
+	left: 0px;top:50px;
+	display: none;
+}
+.relative:hover .sub-ul-main-header{
+	display: block;
+
+}
+.sub-ul-main-header li
+{
+	padding: 10px 50px 10px 15px;
+	width: 100%;
+}
+.sub-ul-main-header li a
+{
+	color: black;
+}
+
+.search-icon-box
+{
+	float: right;
+	padding: 15.8px 25px;
+	background: none;
+	border:none;
+}
+.search-icon-box:hover,.bars-icon-box:hover
+{
+	background: #FF5733;
+	cursor: pointer;
+}
+.bars-icon-box{
+	padding:15.8px 25px;
+	background:none;
+	border:none;
+	background: black;
+}
+
+/* and header coding...  */
+
+
+
+/*start main img slider coding..*/
+	
+	.main-img-slider-con{
+		width: 100%; height: 660px;
+		float:left;
+		-webkit-animation: changeimg 10s infinite;
+		-moz-animation: changeimg 10s infinite;
+		-o-animation: changeimg 10s infinite;
+		animation: changeimg 10s infinite;
+	}
+
+	@keyframes changeimg
+	{
+		0%{background: url("../img/one.jpg");background-size: cover;}
+		30%{background: url("../img/one.jpg");background-size: cover;}
+		33%{background: url("../img/two.jpg");background-size: cover;}
+		65%{background: url("../img/two.jpg");background-size: cover;}
+		66%{background: url("../img/three.jpg");background-size: cover;}
+		100%{background: url("../img/three.jpg");background-size: cover;}
+	}
+
+/*and main img slider coding../
+
+
+
+/* Start main section coding.......  */
+	
+/* {Start Band Coding Here..} */
+.main-section
+{
+	width: 100%; height: auto;
+	float: left;
+}
+
+.main-band-con
+{
+	width: 60%; height: auto;
+	float: left;
+	margin: 30px 20%;
+}
+.band-content,.band-img-con
+{
+	width: 100%; height: auto;
+	float: left;padding: 10px;
+}
+.band-name,.band-title
+{
+	font-family: sans-serif;
+	font-size: 36px;
+	color: #323232;
+	text-align: center;
+
+}.band-title{font-size: 17px}
+
+.about-band{
+	font-family: sans-serif;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.band-img-box1,.band-img-box2,.band-img-box3
+{
+	width: 25%; height: 260px;
+	float:left;
+	text-align: center;
+	margin: 0px 30px;
+	padding: 5px;
+}
+.band-img-box1,.band-img-box2,.band-img-box3 p
+{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.img-box
+{
+	width: 100%; height: 200px;
+	float: left;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+.img-box img
+{
+	border-radius: 10px;
+}
+
+/* {And Band Coding Here..} */
+
+
+/* {Start Tour Dates Here..}  */
+.main-tour-con
+{
+	width: 100%; height: 700px;
+	background: #000;
+	float: left;
+}
+
+.sub-tour-con
+{
+	width: 70%; height: 650px;
+	margin: 25px 15%;
+
+}
+
+.sub-tour-con1,.sub-tour-con2
+{
+	width: 100%; height: 250px;
+	float: left;
+}
+.sub-tour-con2
+{
+	border-color: green;
+	height: 400px;
+}
+.sub-tour-con1>h1
+{
+	color: white;
+	font-family: Dancing Script;
+	font-size: 40px;
+}
+.sub-tour-con1>p
+{
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: lightgray;
+	margin: 10px 0px 30px 0px;
+}
+.tour-september-box,.tour-october-box,.tour-november-box
+{
+	width: 90%; height: 40px;
+	background: #fff;
+	float: left;
+	margin: 0px 5%;
+	padding: 10px;
+	font-family: sans-serif;
+	color: gray;
+}
+
+.tour-soldout-btn1,.tour-soldout-btn2
+{
+	padding: 4px 10px;
+	margin: 0px 15px;
+	border: none;
+	background: none;
+	background: #F44336;
+	color: white;
+	font-family: sans-serif;
+}
+.tour-soldout-btn3
+{
+	float: right;
+	padding: 6px 10px;
+	margin: -3px 20px;
+	border-radius: 50%;
+	color: white;
+	border: none;
+	background: none;
+	background: black;
+
+}
+
+.sub-tour-con2-box1,.sub-tour-con2-box2,.sub-tour-con2-box3
+{
+	width: 30%; height: 380px;
+	float: left;
+	margin: 5px 5px;
+	background: #FFFFFF
+}
+.sub-tour-con2-box1
+{
+	margin-left: 40px;
+}
+
+.tour-img-con1,.tour-img-con2
+{
+	width: 100%; height: 175px;
+	float: left;
+}
+.tour-img-con2
+{
+	height: 200px;
+	padding: 12px;
+}
+
+.tour-img-con1>img
+{
+	filter: blur(3px);
+}
+.tour-img-con1>img:hover
+{
+	filter: blur(0px);
+	transition: 0.3s;
+}
+.tour-img-btn{
+	padding: 12px 20px;
+	border:none;
+	background:none;
+	background: black;
+	font-family:sans-serif;
+	color: white;
+}
+.tour-img-btn:hover
+{
+	background: gray;
+	transition: 0.3s;
+}
+/* {And Tour Dates Here..}  */
+
+
+/* Start Form Coding HEre..  */
+	.form-con
+	{
+		width: 100%; height: auto;
+		float: left;
+	}
+	.sub-form-con
+	{
+		width: 80%; height: auto;
+		float: left;
+		margin: 30px 14%;
+	}
+	.sub-form-con>h1
+	{
+		font-family: sans-serif;
+		font-size: 40px;
+		font-weight: normal;
+		margin-top:60px;
+	}
+	.sub-form-con>p
+	{
+		font-family: sans-serif;
+		color: gray;margin-top: 10px;
+	}
+
+	.sub-child-left-con,.sub-child-right-con
+	{
+		width: 50%; height: auto;
+		float: left;
+	}
+	.sub-child-sub-left-con
+	{
+		width: 50%; height: auto;
+		text-align: left;
+		font-family: sans-serif;
+		margin: 75px 25%;
+		font-size: 20px;
+	}
+	.sub-child-sub-right-con
+	{
+		width: 100%; height: auto;
+		float: left;
+		margin: 10% 0px;
+		padding: 10px;
+	}
+	#user-name,#user-email
+	{
+		width: 40%; height: 35px;
+		border: none;border: 1px solid gray;
+		padding: 0px 10px;
+	}
+	#user-msg
+	{
+		width: 81%; height: 35px;
+		border: none; border: 1px solid gray;
+		padding: 0px 10px;
+		margin-top: 10px;
+	}
+	#send-btn
+	{
+		float: right;
+		margin-right: 20%;
+		padding: 10px 20px;
+		border: none;
+		background: none; background: #000;
+		color: white;
+		font-family: sans-serif;
+	}
+	#send-btn:hover
+	{
+		background: gray;
+		transition: 0.2s;
+		cursor: pointer;
+	}
+
+
+/* And Form Coding Here..  */
+
+/* start map image coding here..  */
+	
+	.map-img-con
+	{
+		width: 100%; height: auto;
+		float: left;
+	}
+
+/* and map image coding here..  */
+/* And main section coding......*/
+
+
+/* start footer coding here..*/
+	
+	.footer
+	{
+		width: 100%; height: 230px;
+		float: left;
+	}
+	.sub-footer
+	{
+		width: 400px;height: 100px;
+		margin: 70px auto;
+		text-align: center;
+		padding-top: 30px;
+		color: gray;
+	}
+	.DevTech
+	{
+		font-family: sans-serif;
+		margin-top: 10px;
+		color: gray;
+		font-size: 20px;
+	}
+
+/* and footer coding here..  */
+
+
+
+
+
